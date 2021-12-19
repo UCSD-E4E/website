@@ -11,6 +11,7 @@ This folder contains the scripts to generate the code to put into http://e4e.ucs
 	- `url`
 	- `abstract`
 	- `year`
+	- `month`
 	- If the publication is part of a journal or conference article, ensure the following fields are present:
 		- `booktitle` (name of journal/conference)
 		- `DOI`
