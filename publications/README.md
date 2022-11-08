@@ -25,4 +25,4 @@ This folder contains the scripts to generate the code to put into http://e4e.ucs
 6. Copy the entire contents of `publications.html` into the HTML box on http://e4e.ucsd.edu/publications and publish.
 
 ## Requirements
-1.  `bibtex2html`
+1.  `bibtex2html` - https://www.lri.fr/~filliatr/bibtex2html/
