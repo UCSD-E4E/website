@@ -16,14 +16,14 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install toolchain
-      run: |
-        wget http://www.lri.fr/~filliatr/ftp/bibtex2html/bibtex2html-1.99-linux.tar.gz -O /tmp/bibtex.tar.gz
-        mkdir /tmp/bibtex
-        tar -xzf /tmp/bibtex.tar.gz -C /tmp/bibtex
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: bibtex2html
+        version: 1.0
     - name: Build
       run: |
         cd publications
-        /tmp/bibtex/bibtex2html-1.99-linux/bibtex2html -w -d -nobibsource -nofooter -r -nodoc -dl -s ieeetr -noheader -html-entities publications.bib
+        bibtex2html -w -d -nobibsource -nofooter -r -nodoc -dl -s ieeetr -noheader -html-entities publications.bib
         cd ..
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
