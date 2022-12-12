@@ -20,11 +20,10 @@ jobs:
         wget http://www.lri.fr/~filliatr/ftp/bibtex2html/bibtex2html-1.99-linux.tar.gz -O /tmp/bibtex.tar.gz
         mkdir /tmp/bibtex
         tar -xzf /tmp/bibtex.tar.gz -C /tmp/bibtex
-        echo `/tmp/bibtex/bibtex2html-1.99-linux` >> $GITHUB_PATH
     - name: Build
       run: |
         cd publications
-        /bin/bash ./createHTML.sh
+        /tmp/bibtex/bibtex2html-1.99-linux/bibtex2html -w -d -nobibsource -nofooter -r -nodoc -dl -s ieeetr -noheader -html-entities publications.bib
         cd ..
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
