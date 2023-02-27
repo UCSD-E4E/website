@@ -1,0 +1,31 @@
+name: BibTex2HTML Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Install toolchain
+      uses: awalsh128/cache-apt-pkgs-action@latest
+      with:
+        packages: bibtex2html
+        version: 1.0
+    - name: Build
+      run: |
+        cd publications
+        bibtex2html -w -d -nobibsource -nofooter -r -nodoc -dl -s ieeetr -noheader -html-entities publications.bib
+        cd ..
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        path: ./publications/publications.html
