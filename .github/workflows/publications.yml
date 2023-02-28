@@ -16,10 +16,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Install toolchain
-      uses: awalsh128/cache-apt-pkgs-action@latest
-      with:
-        packages: bibtex2html
-        version: 1.0
+      run: |
+        sudo sed -i 's/yes/no/g' /etc/initramfs-tools/update-initramfs.conf
+        sudo rm -f /var/lib/man-db/auto-update
+        sudo apt-get update
+        sudo apt-get install bibtex2html
     - name: Build
       run: |
         cd publications
