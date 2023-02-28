@@ -34,4 +34,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: expeditions
-        path: ./expeditions/expeditions .html
+        path: ./expeditions/expeditions.html
