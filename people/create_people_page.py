@@ -94,7 +94,7 @@ def check_url(url: str) -> bool:
     """
     if not isinstance(url, str):
         return False
-    if requests.head(url).status_code < 400:
+    if requests.head(url).status_code > 400:
         return False
     return True
 
