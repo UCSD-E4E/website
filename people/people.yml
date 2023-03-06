@@ -1213,7 +1213,7 @@
   start: 2020
 - description: Acoustic Species ID since 2020
   expedition: true
-  level: Project Candidate
+  level: Project Member
   name: Jen Switzer
   start: 2020
 - description: Acoustic Species ID 2021
@@ -1239,21 +1239,21 @@
   end: 2022
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_ewong-200x200.jpg
-  level: Project Candidate
+  level: Project Member, Alumni
   name: Emily Wong
   start: 2022
 - description: FishSense, 2022 Summer REU
   end: 2022
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_sswitzer-200x200.jpg
-  level: Project Candidate
+  level: Project Member, Alumni
   name: Scott Switzer
   start: 2022
 - description: FishSense, 2022 Summer REU
   end: 2022
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_ihumphrey-200x200.jpeg
-  level: Project Candidate
+  level: Project Member, Alumni
   name: Bella Humphrey
   start: 2022
 - description: Acoustic Species ID since 2022, 2022 Summer REU
@@ -1266,7 +1266,7 @@
   end: 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_agarde-200x200.jpg
-  level: Project Candidate
+  level: Project Lead
   name: Anshul Garde
   start: 2021
 - description: Radio Telemetry Tracking since 2022, 2022 Summer REU
