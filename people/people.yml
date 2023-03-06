@@ -766,7 +766,7 @@
 - description: Acoustic Species ID since 2020, 2020 Summer REU, 2021 Summer REU
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_jayers_200x150.jpg
-  level: Project Lead
+  level: Project Member
   name: Jacob Ayers
   start: 2020
 - description: Acoustic Species ID, 2020
@@ -791,7 +791,7 @@
 - description: Acoustic Species ID since 2020, 2021 Summer REU, 2022 Summer REU
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_sperry_200x150.jpg
-  level: Project Candidate
+  level: Project Lead
   name: Sean Perry
   start: 2020
 - description: Acoustic Species ID, 2020
@@ -1032,8 +1032,8 @@
   level: Project Member - Alumni
   name: Zack Sun
   start: 2020
-- description: Baboons on the Move since 2018
-  expedition: false
+- description: Baboons on the Move since 2018, FishSense since 2022
+  expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_ccrutchfield_200x200.jpg
   level: Project Lead
   name: Chris Crutchfield
@@ -1229,7 +1229,7 @@
 - description: FishSense since 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_vsuresh_165x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Viva Suresh
   start: 2021
 - description: FishSense, 2022 Summer REU
@@ -1253,11 +1253,10 @@
   level: Project Candidate
   name: Bella Humphrey
   start: 2022
-- description: Acoustic Species ID, 2022 Summer REU
-  end: 2022
+- description: Acoustic Species ID since 2022, 2022 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_pchatterjee-200x200.jpeg
-  level: Project Candidate
+  level: Project Member
   name: Pranjal Chatterjee
   start: 2022
 - description: Smartfin since 2022, 2022 Summer REU
@@ -1300,7 +1299,6 @@
   start: 2021
   end: 2022
 - description: Acoustic Species ID since 2021, 2022 Summer REU
-  end: 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_sprestrelski-200x200.jpg
   level: Project Lead
@@ -1326,3 +1324,175 @@
   level: Project Member
   name: Arya Keni
   start: 2022
+- name: Jessica Inthasane
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Ryan Hung
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Mohit Sridhar
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Jose Salazar
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Dongyin Hu
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Joe Yan
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Micah Gilbert
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Kristina Diep
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Zoe Ludena
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Michael Ma
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Jeannie Kim
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Saathvik Dirisala
+  description: Acoustic Species ID since 2022
+  level: Project Candidate
+  start: 2022
+- name: Shaurya Raswan
+  description: Baboons on the Move since 2022, FishSense since 2022
+  level: Project Member
+  start: 2022
+- name: Ashwin Muralidharan
+  description: Baboons on the Move since 2022
+  level: Project Member
+  start: 2022
+- name: Matt Dulansky
+  description: Aye-Aye Sleep Monitoring since 2022
+  level: Project Member
+  start: 2022
+- name: Leo Li
+  description: Aye-Aye Sleep Monitoring since 2022
+  level: Project Member
+  start: 2022
+- name: Kyle Hu
+  description: FishSense since 2021
+  level: Project Member
+  start: 2021
+- name: Harish Vasanth
+  description: FishSense since 2022
+  level: Project Member
+  start: 2022
+- name: Allen Kan
+  description: FishSense since 2022
+  level: Project Candidate
+  start: 2022
+- name: Varun Singh
+  description: Mangrove Monitoring since 2021
+  level: Project Member
+  start: 2021
+- name: Jieqi Liu
+  description: Mangrove Monitoring since 2022
+  level: Project Member
+  start: 2022
+- name: Chen Yang
+  description: Mangrove Monitoring since 2022
+  level: Project Member
+  start: 2022
+- name: Niklas Chang
+  description: Mangrove Monitoring since 2022
+  level: Project Member
+  start: 2022
+- name: Hannah Grehm
+  description: Radio Telemetry Tracking since 2022
+  level: Project Lead
+  start: 2022
+- name: Wesley Lewis
+  description: Radio Telemetry Tracking since 2022
+  level: Project Member
+  start: 2022
+- name: Do heon Kim
+  description: Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Aryaman Jahdav
+  description: Smartfin since 2021
+  level: Project Member
+  start: 2021
+- name: Alexander Tang
+  description: Smartfin since 2022
+  level: Project Member
+  start: 2022
+- name: Luran Zhang
+  description: Smartfin since 2022
+  level: Project Candidate
+  start: 2022
+- name: Kewei Chen
+  description: Smartfin since 2023
+  level: Project Candidate
+  start: 2022
+- name: Adrian Zugehar
+  description: Hardware Team supporting FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Aatash Pestonjamasp
+  description: Hardware Team supporting FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Nina Abraham
+  description: Hardware Team supporting FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Zhaoyi Ye
+  description: Hardware Team supporting FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Kayren Zheng
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Aniket Bhosale
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Nicholas 
+  description: FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Avik Ghosh
+  description: FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Abhi Sachdeva
+  description: FishSense since 2022
+  level: Project Candidate
+  start: 2022
+- name: Vancheeswaran Vaidyanathan
+  description: FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Kyle Tran
+  description: FishSense since 2023
+  level: Project Candidate
+  start: 2023
+- name: Tyler Flar
+  description: Baboon Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Unday Kumar Redyy
+  description: Baboon Tracking since 2023
+  level: Project Candidate
+  start: 2023
