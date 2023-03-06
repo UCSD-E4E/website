@@ -6,7 +6,7 @@ from typing import Dict, List
 
 import yaml
 from schema import Optional, Or, Schema
-
+import requests
 
 def standard_html(name: str, desc: str, img: str, expedition: bool, link: str) -> str:
     """Standard HTML output
@@ -83,6 +83,21 @@ def no_output(nname: str, desc: str, img: str, expedition: bool, link: str) -> s
     # pylint: disable=unused-argument
     return ""
 
+def check_url(url: str) -> bool:
+    """Checks that this is an image
+
+    Args:
+        url (str): URL to image
+
+    Returns:
+        bool: True if image, otherwise False
+    """
+    if not isinstance(url, str):
+        return False
+    if requests.get(url).status_code != 200:
+        return False
+    return True
+
 def main():
     """Main application logic
     """
@@ -98,7 +113,7 @@ def main():
             'name': str,
             Optional('image',
                      default="http://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing.png"):
-                     str,
+                     Schema(check_url),
             'description': str,
             'start': int,
             Optional('end', default=9999): int,
@@ -113,7 +128,7 @@ def main():
                 "Former Staff Engineer",
                 "Former E4E Director"
             ),
-            Optional('link', default=None): str,
+            Optional('link', default=None): Schema(check_url),
             Optional('expedition', default=False): bool
         }
     ])
