@@ -27,11 +27,11 @@ jobs:
         cd ..
     - name: Build
       run: |
-        cd expeditions
+        cd people
         python create_people_page.py people.yml
         cd ..
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
       with:
-        name: expeditions
+        name: people
         path: ./people/*.html 
