@@ -948,11 +948,12 @@
   level: Project Candidate
   name: Abhik Roy
   start: 2020
-- description: Burrowing Owl since 2020
+- description: Burrowing Owl 2020
   expedition: false
   level: Project Member - Alumni
   name: Kewen Zhao
   start: 2020
+  end: 2020
 - description: Burrowing Owl since 2020
   expedition: false
   level: Project Candidate
@@ -982,11 +983,12 @@
   level: Project Lead - Alumni
   name: Patrick Paxson
   start: 2020
-- description: FishSense since 2020
+- description: FishSense 2020-2021
   expedition: false
   level: Project Lead - Alumni
   name: Dan Truong
   start: 2020
+  end: 2021
 - description: FishSense since 2020
   expedition: false
   level: Project Candidate
@@ -1002,32 +1004,37 @@
   level: Project Candidate
   name: Brian Chen
   start: 2020
-- description: FishSense since 2020
+- description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Natalia Berrios Rivera
   start: 2020
-- description: FishSense since 2020
+  end: 2020
+- description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Alistair Vizuet
   start: 2020
-- description: FishSense since 2020
+  end: 2020
+- description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Fredo Avalos
   start: 2020
-- description: FishSense since 2020
+  end: 2020
+- description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Julia Guerrero
   start: 2020
-- description: FishSense since 2020
+  end: 2020
+- description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Troy Cosino
   start: 2020
-- description: FishSense since 2020
+  end: 2020
+- description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Zack Sun
@@ -1044,21 +1051,23 @@
   level: Project Candidate
   name: Anh Ngo
   start: 2018
-- description: Baboons on the Move since 2020
+- description: Baboons on the Move 2020
   expedition: false
   level: Project Member - Alumni
   name: Alvin Wang
   start: 2020
+  end: 2020
 - description: Baboons on the Move since 2020
   expedition: false
   level: Project Candidate
   name: Danny Nguyen
   start: 2020
-- description: Baboons on the Move since 2020
+- description: Baboons on the Move 2020
   expedition: false
   level: Project Member - Alumni
   name: Jake Sutton
   start: 2020
+  end: 2020
 - description: Baboons on the Move since 2020
   expedition: false
   level: Project Candidate
@@ -1080,11 +1089,12 @@
   level: Project Candidate
   name: Jason Pham
   start: 2021
-- description: Burrowing Owl since 2021
+- description: Burrowing Owl 2021
   expedition: false
   level: Project Member - Alumni
   name: Bruce Yang
   start: 2021
+  end: 2021
 - description: Smartfin, 2021 Summer REU
   end: 2021
   expedition: false
@@ -1269,7 +1279,7 @@
   level: Project Lead
   name: Anshul Garde
   start: 2021
-- description: Radio Telemetry Tracking since 2022, 2022 Summer REU
+- description: Radio Telemetry Tracking 2022, 2022 Summer REU
   end: 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_fchaquico-200x200.jpg
@@ -1293,7 +1303,7 @@
   name: Prateek Rout
   start: 2022
   end: 2022
-- description: Radio Telemetry Tracking since 2021, 2022 Summer REU
+- description: Radio Telemetry Tracking 2021-2022, 2022 Summer REU
   end: 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_mdimitropoulou-200x200.jpg

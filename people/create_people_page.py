@@ -160,12 +160,12 @@ def main():
 
     level_formatters = {
         1: no_output,
-        2: minimal_html,
+        2: standard_html,
         3: standard_html,
         4: standard_html,
         5: standard_html,
         6: standard_html,
-        22: minimal_html,
+        22: standard_html,
         23: standard_html,
         24: standard_html,
         25: standard_html,
@@ -173,13 +173,13 @@ def main():
     }
 
     section_output = {
-        1: ("", ""),
-        2: ("<!-- wp:list -->\n<ul>\n", "</ul>\n<!-- /wp:list -->\n"),
+        1: ("<!-- wp:list -->\n<ul>\n", "</ul>\n<!-- /wp:list -->\n"),
+        2: ("", ""),
         3: ("", ""),
         4: ("", ""),
         5: ("", ""),
         6: ("", ""),
-        22: ("<!-- wp:list -->\n<ul>\n", "</ul>\n<!-- /wp:list -->\n"),
+        22: ("", ""),
         23: ("", ""),
         24: ("", ""),
         25: ("", ""),
