@@ -1092,11 +1092,12 @@
   level: Project Candidate
   name: Christopher Maldonado-Salido
   start: 2021
-- description: Aye-Aye Sleep Monitoring since 2021
+- description: Aye-Aye Sleep Monitoring 2021-2022
   expedition: false
-  level: Project Member
+  level: Project Member - Alumni
   name: Clair Ma
   start: 2021
+  end: 2022
 - description: 'Radio Telemetry Tracking, 2021
     Maya Archaeology, 2021 Summer REU'
   end: 2021
@@ -1215,17 +1216,19 @@
   level: Project Candidate
   name: Jen Switzer
   start: 2020
-- description: Acoustic Species ID since 2021
+- description: Acoustic Species ID 2021
   expedition: false
-  level: Project Member
+  level: Project Member - Alumni
   name: Nathalie Franklin
   start: 2021
-- description: Smartfin since 2021
+  end: 2021
+- description: Smartfin 2021-2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_nyazdani_155x200.jpg
-  level: Project Member
+  level: Project Member - Alumni
   name: Nima Yazdani
   start: 2021
+  end: 2022
 - description: FishSense since 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_vsuresh_165x200.jpg
