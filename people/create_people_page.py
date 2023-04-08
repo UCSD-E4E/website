@@ -2,11 +2,48 @@
 '''
 import argparse
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 import yaml
 from schema import Optional, Or, Schema
-import requests
+
+levels_map = {
+    "Project Candidate": 1,
+    "Project Member": 2,
+    "Project Lead": 4,
+    "Staff Engineer": 5,
+    "E4E Director": 6,
+    "Project Member - Alumni": 22,
+    "Project Lead - Alumni": 24,
+    "Former Staff Engineer": 25,
+    "Former E4E Director": 26
+}
+
+base_level_headings = {
+    1: "Project Candidates",
+    2: "Project Member",
+    4: "Project Leads",
+    5: "Staff Engineers",
+    6: "E4E Directors",
+    22: "Project Member - Alumni",
+    24: "Project Lead - Alumni",
+    25: "Former Staff Engineers",
+    26: "Former E4E Directors"
+}
+
+section_output = {
+    1: ("<!-- wp:list -->\n<ul>\n", "</ul>\n<!-- /wp:list -->\n"),
+    2: ("", ""),
+    3: ("", ""),
+    4: ("", ""),
+    5: ("", ""),
+    6: ("", ""),
+    22: ("", ""),
+    23: ("", ""),
+    24: ("", ""),
+    25: ("", ""),
+    26: ("", "")
+}
 
 def standard_html(name: str, desc: str, img: str, expedition: bool, link: str) -> str:
     """Standard HTML output
@@ -98,6 +135,61 @@ def check_url(url: str) -> bool:
     #     return False
     return True
 
+level_formatters = {
+    1: no_output,
+    2: standard_html,
+    3: standard_html,
+    4: standard_html,
+    5: standard_html,
+    6: standard_html,
+    22: standard_html,
+    23: standard_html,
+    24: standard_html,
+    25: standard_html,
+    26: standard_html
+}
+
+def create_alumni_page(data: Dict) -> str:
+    """Creates the Alumni page
+
+    Args:
+        data (Dict): Dictionary of people data
+
+    Returns:
+        str: HTML of Alumni page
+    """
+    alumni_page_order = [
+        26, 25, 24, 23, 22
+    ]
+
+    html = ''
+    html += "<!-- wp:paragraph -->\n"
+    html += ("<p>* Denotes people that have participated in one of our "
+            "<a href=\"http://e4e.ucsd.edu/expeditions\">expeditions/deployments</a>.</p>\n")
+    html += "<!-- /wp:paragraph -->\n"
+    html += "\n"
+    for level in alumni_page_order:
+        people = [person for person in data if levels_map[person['level']] == level]
+
+        if len(people) > 0:
+            html += "<!-- wp:heading -->\n"
+            html += f"<h2>{base_level_headings[level]}</h2>\n"
+            html += "<!-- /wp:heading -->\n"
+            html += "\n"
+
+            html += section_output[level][0]
+
+        for person in sorted(people, key=lambda x: (x['end'], x['start'])):
+            title = person["name"]
+            image = person["image"]
+            description = person["description"]
+            expedition = person["expedition"]
+            link = person["link"]
+            html += level_formatters[level](title, description, image, expedition, link)
+
+        html += section_output[level][1]
+    return html
+
 def main():
     """Main application logic
     """
@@ -105,9 +197,20 @@ def main():
     parser.add_argument('yml', type=Path)
     args = parser.parse_args()
 
-    with open(args.yml, 'r', encoding='ascii') as handle:
+    people_data_path: Path = args.yml
+
+    with open(people_data_path, 'r', encoding='ascii') as handle:
         data = yaml.safe_load(handle)
 
+    people_html, alumni_html = create_html(data)
+
+    with open('people.html', 'w', encoding='ascii') as handle:
+        handle.write(people_html)
+
+    with open("alumni.html", 'w', encoding='ascii') as file:
+        file.write(alumni_html)
+
+def create_html(data: Dict) -> Tuple[str, str]:
     schema = Schema([
         {
             'name': str,
@@ -134,64 +237,21 @@ def main():
     ])
     valid_data: List[Dict] = schema.validate(data)
 
-    levels_map = {
-        "Project Candidate": 1,
-        "Project Member": 2,
-        "Project Lead": 4,
-        "Staff Engineer": 5,
-        "E4E Director": 6,
-        "Project Member - Alumni": 22,
-        "Project Lead - Alumni": 24,
-        "Former Staff Engineer": 25,
-        "Former E4E Director": 26
-    }
+    people_html = create_people_page(valid_data)
+    alumni_html = create_alumni_page(valid_data)
+    return people_html,alumni_html
 
-    base_level_headings = {
-        1: "Project Candidates",
-        2: "Project Member",
-        4: "Project Leads",
-        5: "Staff Engineers",
-        6: "E4E Directors",
-        22: "Project Member - Alumni",
-        24: "Project Lead - Alumni",
-        25: "Former Staff Engineers",
-        26: "Former E4E Directors"
-    }
+def create_people_page(valid_data: Dict) -> str:
+    """Creates the People page
 
-    level_formatters = {
-        1: no_output,
-        2: standard_html,
-        3: standard_html,
-        4: standard_html,
-        5: standard_html,
-        6: standard_html,
-        22: standard_html,
-        23: standard_html,
-        24: standard_html,
-        25: standard_html,
-        26: standard_html
-    }
+    Args:
+        valid_data (Dict): Dictionary of data
 
-    section_output = {
-        1: ("<!-- wp:list -->\n<ul>\n", "</ul>\n<!-- /wp:list -->\n"),
-        2: ("", ""),
-        3: ("", ""),
-        4: ("", ""),
-        5: ("", ""),
-        6: ("", ""),
-        22: ("", ""),
-        23: ("", ""),
-        24: ("", ""),
-        25: ("", ""),
-        26: ("", "")
-    }
-
+    Returns:
+        str: HTML of People page
+    """
     people_page_order = [
         6, 5, 4, 3, 2
-    ]
-
-    alumni_page_order = [
-        26, 25, 24, 23, 22
     ]
 
     html = ''
@@ -220,38 +280,7 @@ def main():
             html += level_formatters[level](title, description, image, expedition, link)
 
         html += section_output[level][1]
-
-    with open('people.html', 'w', encoding='ascii') as handle:
-        handle.write(html)
-
-    html = ''
-    html += "<!-- wp:paragraph -->\n"
-    html += ("<p>* Denotes people that have participated in one of our "
-            "<a href=\"http://e4e.ucsd.edu/expeditions\">expeditions/deployments</a>.</p>\n")
-    html += "<!-- /wp:paragraph -->\n"
-    html += "\n"
-    for level in alumni_page_order:
-        people = [person for person in valid_data if levels_map[person['level']] == level]
-
-        if len(people) > 0:
-            html += "<!-- wp:heading -->\n"
-            html += f"<h2>{base_level_headings[level]}</h2>\n"
-            html += "<!-- /wp:heading -->\n"
-            html += "\n"
-
-            html += section_output[level][0]
-
-        for person in sorted(people, key=lambda x: (x['end'], x['start'])):
-            title = person["name"]
-            image = person["image"]
-            description = person["description"]
-            expedition = person["expedition"]
-            link = person["link"]
-            html += level_formatters[level](title, description, image, expedition, link)
-
-        html += section_output[level][1]
-    with open("alumni.html", 'w', encoding='ascii') as file:
-        file.write(html)
+    return html
 
 if __name__ == '__main__':
     main()
