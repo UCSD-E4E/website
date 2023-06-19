@@ -11,3 +11,11 @@ body:
         for public distribution.  Submitted photos should be PNG or JPEG
         format, scaled to 200x200px.  Filename should be {year}_{name}.{ext}.
         Please attach the image to this issue
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Image Submission
+      description: By submitting this issue, you agree that the attached image is permissible for publication on the E4E Website
+      options:
+        - label: I agree
+          required: true
