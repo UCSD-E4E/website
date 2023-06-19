@@ -242,6 +242,10 @@ def validate_people(valid_data: Dict) -> None:
                                         'Former E4E Director']:
             if person_params['end'] == 9999:
                 print(f'{person_params["name"]}\'s end year might be wrong!')
+        if person_params['level'] != 'Project Candidate':
+            if person_params['image'] == \
+                "http://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing.png":
+                print(f'{person_params["name"]} needs a mug shot')
 
 def create_html(data: Dict) -> Tuple[str, str]:
     schema = Schema([
