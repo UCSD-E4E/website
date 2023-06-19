@@ -1,10 +1,7 @@
-name: People Page Upload
+name: People Page Build
 
 on:
-  workflow_dispatch:
   push:
-    branches:
-      - master
 
 permissions:
   contents: read
@@ -26,12 +23,9 @@ jobs:
         python -m pip install -r requirements.txt
         cd ..
     - name: Build
-      env:
-        WP_CREDS: ${{ secrets.WP_CREDS }}
       run: |
         cd people
         python create_people_page.py people.yml
-        python upload_people_page.py people.yml
         cd ..
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3
