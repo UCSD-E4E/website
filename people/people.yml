@@ -1507,9 +1507,10 @@
   level: Project Candidate
   start: 2023
 - name: Tyler Flar
-  description: Baboon Tracking since 2023
-  level: Project Candidate
+  description: Baboons on the Move since 2023
+  level: Project Lead
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/tflar_200x200.png
 - name: Unday Kumar Redyy
   description: Baboon Tracking since 2023
   level: Project Candidate
