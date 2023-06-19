@@ -5,10 +5,19 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Run",
+            "name": "Create",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/create_people_page.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["people.yml"]
+        },
+        {
+            "name": "Upload",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/upload_people_page.py",
             "console": "integratedTerminal",
             "justMyCode": true,
             "args": ["people.yml"]

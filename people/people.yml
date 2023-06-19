@@ -1389,6 +1389,7 @@
   description: Baboons on the Move since 2022, FishSense since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/sraswan_559x720.png
 - name: Ashwin Muralidharan
   description: Baboons on the Move since 2022
   level: Project Member
@@ -1443,14 +1444,16 @@
   description: Radio Telemetry Tracking since 2023
   level: Project Candidate
   start: 2023
-- name: Aryaman Jahdav
+- name: Aryaman Jadhav
   description: Smartfin since 2021
   level: Project Member
   start: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_ajhadav_200x200.png
 - name: Alexander Tang
   description: Smartfin since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_a6tang_200x200.png
 - name: Luran Zhang
   description: Smartfin since 2022
   level: Project Candidate
