@@ -1,6 +1,7 @@
 '''Creates the people page
 '''
 import argparse
+import datetime as dt
 from pathlib import Path
 from typing import Dict, List, Tuple
 
@@ -188,6 +189,12 @@ def create_alumni_page(data: Dict) -> str:
             html += level_formatters[level](title, description, image, expedition, link)
 
         html += section_output[level][1]
+
+    html += '\n'
+    html += '<!-- wp:paragraph -->\n'
+    html += f'<p>Updated {dt.datetime.now().isoformat(timespec="seconds")}</p>\n'
+    html += '<!-- /wp:paragraph -->\n'
+    html += '\n'
     return html
 
 def main():
@@ -280,6 +287,12 @@ def create_people_page(valid_data: Dict) -> str:
             html += level_formatters[level](title, description, image, expedition, link)
 
         html += section_output[level][1]
+
+    html += '\n'
+    html += '<!-- wp:paragraph -->\n'
+    html += f'<p>Updated {dt.datetime.now().isoformat(timespec="seconds")}</p>\n'
+    html += '<!-- /wp:paragraph -->\n'
+    html += '\n'
     return html
 
 if __name__ == '__main__':
