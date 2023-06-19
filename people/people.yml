@@ -26,9 +26,10 @@
 - description: Mangrove Monitoring since 2018
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/dillon.jpg
-  level: Project Lead
+  level: Project Lead - Alumni
   name: Dillon Hicks
   start: 2018
+  end: 2023
 - description: E4E Staff Engineer, 2014-2019
   end: 2019
   expedition: true
@@ -149,21 +150,21 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/banner_dustin_tunnel.jpg
   level: Project Lead - Alumni
   name: Dustin Richmond
-  start: 0
+  start: 2013
 - description: Radio Telemetry Tracking, 2018-2019
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/EricTran-350x350.jpg
   level: Project Candidate
   name: Eric Yu
-  start: 0
+  start: 2018
 - description: Aerial LIDAR, 2015 Summer REU
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Emily-300x249.png
   level: Project Candidate
   name: Emily Ubik
-  start: 0
+  start: 2015
 - description: ''
   expedition: false
   level: Project Candidate
@@ -174,7 +175,7 @@
   expedition: false
   level: Project Member - Alumni
   name: Jacob Domine
-  start: 0
+  start: 2016
 - description: Mangrove Monitoring, 2018-2020
   end: 2020
   expedition: true
@@ -188,49 +189,49 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/lauren.jpg
   level: Project Candidate
   name: Lauren Nishizaki
-  start: 0
+  start: 2013
 - description: PYNQ Copter, 2018 Summer REU
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/zain-350x350.jpg
   level: Project Candidate
   name: Zain Merchant
-  start: 0
+  start: 2018
 - description: Mangrove Monitoring, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_nmeister-263x350.jpg
   level: Project Candidate
   name: Nicole Meister
-  start: 0
+  start: 2020
 - description: Smartfin, 2017-2018
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/jasmine-350x194.png
   level: Project Lead - Alumni
   name: Jasmine Simmons
-  start: 0
+  start: 2017
 - description: Radio Telemetry Tracking, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_elee-350x263.jpg
   level: Project Candidate
   name: Eugene Lee
-  start: 0
+  start: 2020
 - description: Stingray AUV, 2012-2014
   end: 2014
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/perry-small.jpeg
   level: Project Lead - Alumni
   name: Perry Naughton
-  start: 0
+  start: 2012
 - description: Mangrove Monitoring, 2019 Summer REU
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/SamEhrenstein-350x350.jpg
   level: Project Candidate
   name: Sam Ehrenstein
-  start: 0
+  start: 2019
 - description: Maya Archaeology, 2015 Summer REU
   end: 2015
   expedition: false
