@@ -1123,6 +1123,7 @@
   name: Bruce Yang
   start: 2021
   end: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin, 2021 Summer REU
   end: 2021
   expedition: false
@@ -1262,6 +1263,7 @@
   name: Nathalie Franklin
   start: 2021
   end: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin 2021-2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_nyazdani_155x200.jpg
@@ -1353,6 +1355,7 @@
   name: Allen Yang
   start: 2022
   end: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin, 2022 Summer REU
   end: 2022
   expedition: false
@@ -1360,6 +1363,7 @@
   name: Rob O'Brien
   start: 2022
   end: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2022reu_robrien-scaled.jpg
 - description: Radio Telemetry Tracking since 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2022_akeni-200x200.png
@@ -1425,8 +1429,10 @@
   start: 2022
 - name: Matt Dulansky
   description: Aye-Aye Sleep Monitoring since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
+  end: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - name: Leo Li
   description: Aye-Aye Sleep Monitoring since 2022
   level: Project Member
