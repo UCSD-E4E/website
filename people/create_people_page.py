@@ -173,10 +173,10 @@ def create_alumni_page(data: Dict) -> str:
         people = [person for person in data if levels_map[person['level']] == level]
 
         if len(people) > 0:
-            html += "<!-- wp:heading -->\n"
-            html += f"<h2>{base_level_headings[level]}</h2>\n"
-            html += "<!-- /wp:heading -->\n"
-            html += "\n"
+            html += '<!-- wp:heading -->\n'
+            html += f'<h2 class="wp-block-heading">{base_level_headings[level]}</h2>\n'
+            html += '<!-- /wp:heading -->\n'
+            html += '\n'
 
             html += section_output[level][0]
 
@@ -190,7 +190,11 @@ def create_alumni_page(data: Dict) -> str:
 
         html += section_output[level][1]
 
+    html += '<!-- wp:heading -->\n'
+    html += f'<h2 class="wp-block-heading"></h2>\n'
+    html += '<!-- /wp:heading -->\n'
     html += '\n'
+
     html += '<!-- wp:paragraph -->\n'
     html += f'<p>Updated {dt.datetime.now().isoformat(timespec="seconds")}</p>\n'
     html += '<!-- /wp:paragraph -->\n'
@@ -288,7 +292,11 @@ def create_people_page(valid_data: Dict) -> str:
 
         html += section_output[level][1]
 
+    html += '<!-- wp:heading -->\n'
+    html += f'<h2 class="wp-block-heading"></h2>\n'
+    html += '<!-- /wp:heading -->\n'
     html += '\n'
+
     html += '<!-- wp:paragraph -->\n'
     html += f'<p>Updated {dt.datetime.now().isoformat(timespec="seconds")}</p>\n'
     html += '<!-- /wp:paragraph -->\n'
