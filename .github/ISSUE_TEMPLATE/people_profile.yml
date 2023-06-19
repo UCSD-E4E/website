@@ -1,0 +1,13 @@
+name: Profile Photo Submission
+description: Add/Update Profile Photo on website
+title: "[Website]: Profile Photo for "
+assignees:
+  - ntlhui
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Photos should be a clear representative photo of each person, suitable
+        for public distribution.  Submitted photos should be PNG or JPEG
+        format, scaled to 200x200px.  Filename should be {year}_{name}.{ext}.
+        Please attach the image to this issue
