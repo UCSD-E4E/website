@@ -59,6 +59,7 @@
   level: Project Lead - Alumni
   name: Sabrina Trinh
   start: 2015
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Intelligent Camera Trap, 2013 Summer REU
   end: 2013
   expedition: false
@@ -85,6 +86,7 @@
   level: Project Lead - Alumni
   name: Angela To
   start: 2013
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2017 Summer REU
   end: 2017
   expedition: false
@@ -176,6 +178,7 @@
   level: Project Member - Alumni
   name: Jacob Domine
   start: 2016
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Mangrove Monitoring, 2018-2020
   end: 2020
   expedition: true
@@ -722,42 +725,49 @@
   level: Project Lead - Alumni
   name: Bryan Ritoper
   start: 2012
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2014
   end: 2014
   expedition: false
   level: Project Member - Alumni
   name: Alex Ke
   start: 2014
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2016
   end: 2016
   expedition: false
   level: Project Member - Alumni
   name: Nan Shu
   start: 2016
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2016-2017
   end: 2017
   expedition: false
   level: Project Member - Alumni
   name: Jacob Torres
   start: 2016
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2017
   end: 2017
   expedition: false
   level: Project Member - Alumni
   name: Samuel Vineyard
   start: 2017
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2017
   end: 2017
   expedition: false
   level: Project Member - Alumni
   name: Naveen Ketagoda
   start: 2017
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2017
   end: 2017
   expedition: false
   level: Project Member - Alumni
   name: Thomas An
   start: 2017
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2017
   end: 2017
   expedition: true
@@ -821,6 +831,7 @@
   level: Project Member - Alumni
   name: Younus Ahmad
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Radio Telemetry Tracking, 2020
   end: 2020
   expedition: false
@@ -874,6 +885,7 @@
   level: Project Member - Alumni
   name: Dhanvi Desu
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin, 2020-2021
   end: 2021
   expedition: false
@@ -938,12 +950,14 @@
   level: Project Member - Alumni
   name: Beilei He
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Burrowing Owl, 2020-2022
   end: 2022
   expedition: false
   level: Project Member - Alumni
   name: Dennis Luc
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Burrowing Owl since 2020
   expedition: false
   level: Project Candidate
@@ -955,6 +969,7 @@
   name: Kewen Zhao
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Burrowing Owl since 2020
   expedition: false
   level: Project Candidate
@@ -971,6 +986,7 @@
   level: Project Member - Alumni
   name: Parth Patel
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense, 2020-2022
   end: 2022
   expedition: true
@@ -984,12 +1000,14 @@
   level: Project Lead - Alumni
   name: Patrick Paxson
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense 2020-2021
   expedition: false
   level: Project Lead - Alumni
   name: Dan Truong
   start: 2020
   end: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense since 2020
   expedition: false
   level: Project Candidate
@@ -1011,35 +1029,42 @@
   name: Natalia Berrios Rivera
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Alistair Vizuet
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Fredo Avalos
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Julia Guerrero
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Troy Cosino
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense 2020
   expedition: false
   level: Project Member - Alumni
   name: Zack Sun
   start: 2020
+  end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Baboons on the Move since 2018, FishSense since 2022
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_ccrutchfield_200x200.jpg
@@ -1058,6 +1083,7 @@
   name: Alvin Wang
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Baboons on the Move since 2020
   expedition: false
   level: Project Candidate
@@ -1069,6 +1095,7 @@
   name: Jake Sutton
   start: 2020
   end: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Baboons on the Move since 2020
   expedition: false
   level: Project Candidate
@@ -1080,6 +1107,7 @@
   level: Project Lead - Alumni
   name: Dominique Meyer
   start: 2013
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Baboons on the Move since 2021
   expedition: false
   level: Project Candidate
@@ -1096,6 +1124,7 @@
   name: Bruce Yang
   start: 2021
   end: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin, 2021 Summer REU
   end: 2021
   expedition: false
@@ -1109,6 +1138,7 @@
   name: Clair Ma
   start: 2021
   end: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: 'Radio Telemetry Tracking, 2021
     Maya Archaeology, 2021 Summer REU'
   end: 2021
@@ -1143,6 +1173,7 @@
   level: Project Member - Alumni
   name: Jameel Jamous
   start: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: FishSense, 2021 Summer REU
   end: 2021
   expedition: false
@@ -1185,7 +1216,6 @@
   start: 2021
 - description: 'FishSense, 2021 Summer REU
     Floods of Lubra, since 2022'
-  end: 2022
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/rwallace-200x200.jpg
   level: Project Lead
@@ -1222,6 +1252,7 @@
   level: Project Lead - Alumni
   name: Narek Boghozian
   start: 2020
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Acoustic Species ID since 2020
   expedition: true
   level: Project Member
@@ -1233,6 +1264,7 @@
   name: Nathalie Franklin
   start: 2021
   end: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin 2021-2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_nyazdani_155x200.jpg
@@ -1274,7 +1306,6 @@
   name: Pranjal Chatterjee
   start: 2022
 - description: Smartfin since 2022, 2022 Summer REU
-  end: 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_agarde-200x200.jpg
   level: Project Lead
@@ -1325,6 +1356,7 @@
   name: Allen Yang
   start: 2022
   end: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Smartfin, 2022 Summer REU
   end: 2022
   expedition: false
@@ -1332,6 +1364,7 @@
   name: Rob O'Brien
   start: 2022
   end: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2022reu_robrien-scaled.jpg
 - description: Radio Telemetry Tracking 2022-2023
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2022_akeni-200x200.png
@@ -1398,8 +1431,10 @@
   start: 2022
 - name: Matt Dulansky
   description: Aye-Aye Sleep Monitoring since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
+  end: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - name: Leo Li
   description: Aye-Aye Sleep Monitoring since 2022
   level: Project Member
