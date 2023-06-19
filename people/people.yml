@@ -1332,12 +1332,13 @@
   name: Rob O'Brien
   start: 2022
   end: 2022
-- description: Radio Telemetry Tracking since 2022
+- description: Radio Telemetry Tracking 2022-2023
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2022_akeni-200x200.png
-  level: Project Member
+  level: Project Member - Alumni
   name: Arya Keni
   start: 2022
+  end: 2023
 - name: Jessica Inthasane
   description: Acoustic Species ID since 2022
   level: Project Candidate
@@ -1348,11 +1349,11 @@
   start: 2022
 - name: Mohit Sridhar
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
 - name: Jose Salazar
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
 - name: Dongyin Hu
   description: Acoustic Species ID since 2022
@@ -1360,7 +1361,7 @@
   start: 2022
 - name: Joe Yan
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
 - name: Micah Gilbert
   description: Acoustic Species ID since 2022
@@ -1372,7 +1373,7 @@
   start: 2022
 - name: Zoe Ludena
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
 - name: Michael Ma
   description: Acoustic Species ID since 2022
@@ -1464,36 +1465,36 @@
   level: Project Candidate
   start: 2022
 - name: Adrian Zugehar
-  description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  description: Hardware Team supporting FishSense and Aye-Aye Sleep Monitoring since 2023
+  level: Project Member
   start: 2023
 - name: Aatash Pestonjamasp
-  description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  description: Hardware Team supporting FishSense and Radio Telemetry Tracker since 2023
+  level: Project Member
   start: 2023
 - name: Nina Abraham
   description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Zhaoyi Ye
   description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Kayren Zheng
   description: Hardware Team supporting Radio Telemetry Tracking since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Aniket Bhosale
   description: Hardware Team supporting Radio Telemetry Tracking since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
-- name: Nicholas 
+- name: Nicholas Chua
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Avik Ghosh
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Abhi Sachdeva
   description: FishSense since 2022
@@ -1501,18 +1502,131 @@
   start: 2022
 - name: Vancheeswaran Vaidyanathan
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Kyle Tran
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
 - name: Tyler Flar
   description: Baboons on the Move since 2023
   level: Project Lead
   start: 2023
   image: https://e4e.ucsd.edu/wp-content/uploads/tflar_200x200.png
-- name: Unday Kumar Redyy
+- name: Uday Kumar Reddy Varikuti
   description: Baboon Tracking since 2023
+  level: Project Member
+  start: 2023
+- name: Jason Yang
+  description: Mangrove Monitoring since 2023
+  level: Project Lead
+  start: 2023
+- name: Edward Jin
+  description: Mangrove Monitoring since 2023
+  level: Project Lead
+  start: 2023
+- name: Runyu Tian
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Yutian Shi
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Devin Muzzy
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Leon Lin
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Jacob Lin
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Matthew Peng
+  description: Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Dylan Palmer
+  description: Radio Telemetry Tracking, CSE 145, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Haochen Wang
+  description: Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Saud Alsulaiman
+  description: FishSense since 2023
+  level: Project Member
+  start: 2023
+- name: Dylan Stockard
+  description: Baboons on the Move since 2023
+  start: 2023
+  level: Project Candidate
+- name: Daniel George
+  description: Baboons on the Move since 2023
+  start: 2023
+  level: Project Candidate
+- name: Zachary Novack
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Arthi Haripriyan
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Lorenzo Mendes
+  description: Acoustic Species ID, CSE 145, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Abhishek Harish
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Ranjan Gauravarapu
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Sai Nikhila Bandaru
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Shivani Hariprasad
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Boogie Mikulec
+  description: Aye-Aye Sleep Monitoring since 2023
+  level: Project Candidate
+  start: 2023
+- name: Sindhu Kothe
+  description: Aye-Aye Sleep Monitoring since 2023
+  level: Project Candidate
+  start: 2023
+- name: Brandon Lopez
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Hans Chen
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Vasil Bogdev
+  description: Hardware Team supporting Smartfin since 2023
+  level: Project Candidate
+  start: 2023
+- name: Rana Singh
+  description: Hardware Team supporting Smartfin since 2023
   level: Project Candidate
   start: 2023
