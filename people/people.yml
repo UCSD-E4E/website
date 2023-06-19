@@ -11,7 +11,7 @@
   level: E4E Director
   name: Dr. Curt Schurgers
   start: 2010
-- description: E4E Founding Director since 2010
+- description: E4E Founding Director since 2010https://e4e.ucsd.edu/wp-content/uploads/2023_vvaidyanathan.jpg
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/albert.png
   level: Former E4E Director
@@ -1543,6 +1543,7 @@
   description: FishSense since 2023
   level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_vvaidyanathan.jpg
 - name: Kyle Tran
   description: FishSense since 2023
   level: Project Member
