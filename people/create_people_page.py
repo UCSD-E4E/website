@@ -221,6 +221,28 @@ def main():
     with open("alumni.html", 'w', encoding='ascii') as file:
         file.write(alumni_html)
 
+def validate_people(valid_data: Dict) -> None:
+    """Validates the people data structure
+
+    Args:
+        valid_data (Dict): people data
+    """
+    for person_params in valid_data:
+        # Check that level fits end
+        if person_params['end'] != 9999:
+            if person_params['level'] not in ['Project Member - Alumni',
+                                            'Project Lead - Alumni',
+                                            'Former Staff Engineer',
+                                            'Former E4E Director',
+                                            'Project Candidate']:
+                print(f'{person_params["name"]}\'s level might be wrong!')
+        if person_params['level'] in ['Project Member - Alumni',
+                                        'Project Lead - Alumni',
+                                        'Former Staff Engineer',
+                                        'Former E4E Director']:
+            if person_params['end'] == 9999:
+                print(f'{person_params["name"]}\'s end year might be wrong!')
+
 def create_html(data: Dict) -> Tuple[str, str]:
     schema = Schema([
         {
@@ -247,6 +269,7 @@ def create_html(data: Dict) -> Tuple[str, str]:
         }
     ])
     valid_data: List[Dict] = schema.validate(data)
+    validate_people(valid_data)
 
     people_html = create_people_page(valid_data)
     alumni_html = create_alumni_page(valid_data)
