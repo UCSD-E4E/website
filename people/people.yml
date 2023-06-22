@@ -1457,8 +1457,9 @@
   start: 2022
 - name: Varun Singh
   description: Mangrove Monitoring since 2021
-  level: Project Member
+  level: Project Member - Alumni
   start: 2021
+  end: 2023
 - name: Jieqi Liu
   description: Mangrove Monitoring since 2022
   level: Project Member
@@ -1473,6 +1474,7 @@
   description: Mangrove Monitoring since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_nhchang.png
 - name: Hannah Grehm
   description: Radio Telemetry Tracking since 2022
   level: Project Lead
