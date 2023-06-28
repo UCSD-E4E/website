@@ -11,7 +11,7 @@
   level: E4E Director
   name: Dr. Curt Schurgers
   start: 2010
-- description: E4E Founding Director since 2010
+- description: E4E Founding Director since 2010https://e4e.ucsd.edu/wp-content/uploads/2023_vvaidyanathan.jpg
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/albert.png
   level: Former E4E Director
@@ -26,9 +26,10 @@
 - description: Mangrove Monitoring since 2018
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/dillon.jpg
-  level: Project Lead
+  level: Project Lead - Alumni
   name: Dillon Hicks
   start: 2018
+  end: 2023
 - description: E4E Staff Engineer, 2014-2019
   end: 2019
   expedition: true
@@ -151,21 +152,21 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/banner_dustin_tunnel.jpg
   level: Project Lead - Alumni
   name: Dustin Richmond
-  start: 0
+  start: 2013
 - description: Radio Telemetry Tracking, 2018-2019
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/EricTran-350x350.jpg
   level: Project Candidate
   name: Eric Yu
-  start: 0
+  start: 2018
 - description: Aerial LIDAR, 2015 Summer REU
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Emily-300x249.png
   level: Project Candidate
   name: Emily Ubik
-  start: 0
+  start: 2015
 - description: ''
   expedition: false
   level: Project Candidate
@@ -176,7 +177,7 @@
   expedition: false
   level: Project Member - Alumni
   name: Jacob Domine
-  start: 0
+  start: 2016
   image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Mangrove Monitoring, 2018-2020
   end: 2020
@@ -191,49 +192,49 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/lauren.jpg
   level: Project Candidate
   name: Lauren Nishizaki
-  start: 0
+  start: 2013
 - description: PYNQ Copter, 2018 Summer REU
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/zain-350x350.jpg
   level: Project Candidate
   name: Zain Merchant
-  start: 0
+  start: 2018
 - description: Mangrove Monitoring, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_nmeister-263x350.jpg
   level: Project Candidate
   name: Nicole Meister
-  start: 0
+  start: 2020
 - description: Smartfin, 2017-2018
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/jasmine-350x194.png
   level: Project Lead - Alumni
   name: Jasmine Simmons
-  start: 0
+  start: 2017
 - description: Radio Telemetry Tracking, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_elee-350x263.jpg
   level: Project Candidate
   name: Eugene Lee
-  start: 0
+  start: 2020
 - description: Stingray AUV, 2012-2014
   end: 2014
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/perry-small.jpeg
   level: Project Lead - Alumni
   name: Perry Naughton
-  start: 0
+  start: 2012
 - description: Mangrove Monitoring, 2019 Summer REU
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/SamEhrenstein-350x350.jpg
   level: Project Candidate
   name: Sam Ehrenstein
-  start: 0
+  start: 2019
 - description: Maya Archaeology, 2015 Summer REU
   end: 2015
   expedition: false
@@ -1364,12 +1365,13 @@
   start: 2022
   end: 2022
   image: https://e4e.ucsd.edu/wp-content/uploads/2022reu_robrien-scaled.jpg
-- description: Radio Telemetry Tracking since 2022
+- description: Radio Telemetry Tracking 2022-2023
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2022_akeni-200x200.png
-  level: Project Member
+  level: Project Member - Alumni
   name: Arya Keni
   start: 2022
+  end: 2023
 - name: Jessica Inthasane
   description: Acoustic Species ID since 2022
   level: Project Candidate
@@ -1380,19 +1382,21 @@
   start: 2022
 - name: Mohit Sridhar
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_msridhar-scaled.jpg
 - name: Jose Salazar
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_jlsalazar-scaled.jpg
 - name: Dongyin Hu
   description: Acoustic Species ID since 2022
   level: Project Candidate
   start: 2022
 - name: Joe Yan
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
 - name: Micah Gilbert
   description: Acoustic Species ID since 2022
@@ -1404,8 +1408,9 @@
   start: 2022
 - name: Zoe Ludena
   description: Acoustic Species ID since 2022
-  level: Project Candidate
+  level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_zludena.jpg
 - name: Michael Ma
   description: Acoustic Species ID since 2022
   level: Project Candidate
@@ -1437,34 +1442,41 @@
   description: Aye-Aye Sleep Monitoring since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_yul080.jpg
 - name: Kyle Hu
   description: FishSense since 2021
   level: Project Member
   start: 2021
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_kshu-2.jpg
 - name: Harish Vasanth
   description: FishSense since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_havasanth.png
 - name: Allen Kan
   description: FishSense since 2022
   level: Project Candidate
   start: 2022
 - name: Varun Singh
   description: Mangrove Monitoring since 2021
-  level: Project Member
+  level: Project Member - Alumni
   start: 2021
+  end: 2023
 - name: Jieqi Liu
   description: Mangrove Monitoring since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_jil146-1.jpg
 - name: Chen Yang
   description: Mangrove Monitoring since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_chy002.jpg
 - name: Niklas Chang
   description: Mangrove Monitoring since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_nhchang.png
 - name: Hannah Grehm
   description: Radio Telemetry Tracking since 2022
   level: Project Lead
@@ -1498,55 +1510,183 @@
   level: Project Candidate
   start: 2022
 - name: Adrian Zugehar
-  description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  description: Hardware Team supporting FishSense and Aye-Aye Sleep Monitoring since 2023
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_azugehar-scaled.jpg
 - name: Aatash Pestonjamasp
-  description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  description: Hardware Team supporting FishSense and Radio Telemetry Tracker since 2023
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_apestonjamasp-scaled.jpg
 - name: Nina Abraham
   description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_nsabraham-scaled.jpg
 - name: Zhaoyi Ye
   description: Hardware Team supporting FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_zhy026.jpg
 - name: Kayren Zheng
   description: Hardware Team supporting Radio Telemetry Tracking since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_k1zheng-scaled.jpg
 - name: Aniket Bhosale
   description: Hardware Team supporting Radio Telemetry Tracking since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
-- name: Nicholas 
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_abhosale.jpg
+- name: Nicholas Chua
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_nchua-scaled.jpg
 - name: Avik Ghosh
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_a8ghosh.png
 - name: Abhi Sachdeva
   description: FishSense since 2022
   level: Project Candidate
   start: 2022
 - name: Vancheeswaran Vaidyanathan
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_vvaidyanathan.jpg
 - name: Kyle Tran
   description: FishSense since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_kyt001.jpg
 - name: Tyler Flar
   description: Baboons on the Move since 2023
   level: Project Lead
   start: 2023
   image: https://e4e.ucsd.edu/wp-content/uploads/tflar_200x200.png
-- name: Unday Kumar Redyy
+- name: Uday Kumar Reddy Varikuti
   description: Baboon Tracking since 2023
+  level: Project Member
+  start: 2023
+- name: Jason Yang
+  description: Mangrove Monitoring since 2023
+  level: Project Lead
+  start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_jay026-scaled.jpg
+- name: Edward Jin
+  description: Mangrove Monitoring since 2023
+  level: Project Lead
+  start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_ecjin.jpg
+- name: Runyu Tian
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_rutian.jpg
+- name: Yutian Shi
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_yus029.jpg
+- name: Devin Muzzy
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Leon Lin
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Jacob Lin
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_jal041.jpg
+- name: Matthew Peng
+  description: Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Dylan Palmer
+  description: Radio Telemetry Tracking, CSE 145, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Haochen Wang
+  description: Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Saud Alsulaiman
+  description: FishSense since 2023
+  level: Project Member
+  start: 2023
+- name: Dylan Stockard
+  description: Baboons on the Move since 2023
+  start: 2023
+  level: Project Candidate
+- name: Daniel George
+  description: Baboons on the Move since 2023
+  start: 2023
+  level: Project Candidate
+- name: Zachary Novack
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Arthi Haripriyan
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Lorenzo Mendes
+  description: Acoustic Species ID, CSE 145, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Abhishek Harish
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Ranjan Gauravarapu
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Sai Nikhila Bandaru
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Shivani Hariprasad
+  description: Acoustic Species ID, CSE 237D, Spring 2023
+  level: Project Candidate
+  start: 2023
+  end: 2023
+- name: Boogie Mikulec
+  description: Aye-Aye Sleep Monitoring since 2023
+  level: Project Candidate
+  start: 2023
+- name: Sindhu Kothe
+  description: Aye-Aye Sleep Monitoring since 2023
+  level: Project Candidate
+  start: 2023
+- name: Brandon Lopez
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Hans Chen
+  description: Hardware Team supporting Radio Telemetry Tracking since 2023
+  level: Project Candidate
+  start: 2023
+- name: Vasil Bogdev
+  description: Hardware Team supporting Smartfin since 2023
+  level: Project Candidate
+  start: 2023
+- name: Rana Singh
+  description: Hardware Team supporting Smartfin since 2023
   level: Project Candidate
   start: 2023
