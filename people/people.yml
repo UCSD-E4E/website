@@ -22,7 +22,7 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Nathan.png
   level: Staff Engineer
   name: Nathan Hui
-  start: 2010
+  start: 2015
 - description: Mangrove Monitoring since 2018
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/dillon.jpg
@@ -1069,7 +1069,7 @@
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_ccrutchfield_200x200.jpg
   level: Project Lead
-  name: Chris Crutchfield
+  name: Christopher Crutchfield
   start: 2018
 - description: Baboons on the Move since 2018
   expedition: false
@@ -1690,4 +1690,44 @@
 - name: Rana Singh
   description: Hardware Team supporting Smartfin since 2023
   level: Project Candidate
+  start: 2023
+- name: Ela Lucas
+  description: Mechanical Engineer supporting Radio Telemetry Tracking since 2023
+  level: Project Member
+  start: 2023
+- name: Nicholas Reyes
+  description: Radio Telemetry Tracking
+  level: Project Member
+  start: 2023 
+- name: Derick Mathews
+  description: Software for Wireless Underwater Communication System on Volt since 2023
+  level: Project Member
+  start: 2023
+- name: Hamish Grant
+  description: Fishsense, Summer 2023
+  level: Project Member
+  start: 2023
+- name: Emily Thorpe
+  description: Smartfin since 2023
+  level: Project Member
+  start: 2023
+- name: Josephine Dominguez
+  description: Smartfin, Radio Telemetry Tracking, and FishSense since 2023
+  level: Project Member
+  start: 2023
+- name: Michael Pham
+  description: Mangrove Monitoring since 2023
+  level: Project Member
+  start: 2023
+- name: Jordan Reichhardt
+  description: Smartfin, Radio Telemetry Tracking, Fishsense since 2023
+  level: Project Member
+  start: 2023
+- name: Ana Perez
+  description: FishSense since 2023
+  start: 2023
+  level: Project Member
+- name: Chima Nwughala
+  description: AKER, Summer 2023
+  level: Project Member
   start: 2023
