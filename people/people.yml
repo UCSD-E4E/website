@@ -1691,6 +1691,14 @@
   description: Hardware Team supporting Smartfin since 2023
   level: Project Candidate
   start: 2023
+- name: Ela Lucas
+  description: Mechanical Engineer supporting Radio Telemetry Tracking since 2023
+  level: Project Member
+  start: 2023
+- name: Nicholas Reyes
+  description: Radio Telemetry Tracking
+  level: Project Member
+  start: 2023 
 - name: Derick Mathews
   description: Software for Wireless Underwater Communication System on Volt since 2023
   level: Project Member
@@ -1713,5 +1721,17 @@
   start: 2023
 - name: Jordan Reichhardt
   description: Smartfin, Radio Telemetry Tracking, Fishsense since 2023
+  level: Project Member
+  start: 2023
+- name: Ana Perez
+  description: FishSense since 2023
+  start: 2023
+  level: Project Member
+- name: Chima Nwughala
+  description: AKER, Summer 2023
+  level: Project Member
+  start: 2023
+- name: Diana Ekechukwu
+  description: Junkyard Computing, Summer 2023
   level: Project Member
   start: 2023
