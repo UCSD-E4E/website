@@ -21,8 +21,6 @@ jobs:
         python-version: "3.9"
     - name: Install dependencies
       run: |
-        sudo sed -i 's/yes/no/g' /etc/initramfs-tools/update-initramfs.conf
-        sudo rm -f /var/lib/man-db/auto-update
         sudo apt-get update
         sudo apt-get install bibtex2html
         python -m pip install --upgrade pip
