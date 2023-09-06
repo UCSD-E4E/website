@@ -1,0 +1,43 @@
+name: Publications Page Upload
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9"
+    - name: Install dependencies
+      run: |
+        sudo sed -i 's/yes/no/g' /etc/initramfs-tools/update-initramfs.conf
+        sudo rm -f /var/lib/man-db/auto-update
+        sudo apt-get update
+        sudo apt-get install bibtex2html
+        python -m pip install --upgrade pip
+        cd publications
+        python -m pip install -r requirements.txt
+        cd ..
+    - name: Build
+      env:
+        WP_CREDS: ${{ secrets.WP_CREDS }}
+      run: |
+        cd publications
+        python upload_publication_page.py publications.bib
+        cd ..
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: publications
+        path: ./publications/publications.html 
