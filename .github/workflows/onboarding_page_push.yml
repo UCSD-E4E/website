@@ -32,6 +32,6 @@ jobs:
         WP_CREDS: ${{ secrets.WP_CREDS }}
       run: |
         cd onboarding_papers
-        python onboarding_people_page.py projects.yml
+        python upload_onboarding_people_page.py projects.yml
         cd ..
 
