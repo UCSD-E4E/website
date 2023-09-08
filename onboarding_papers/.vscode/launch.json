@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Create Onboarding Page",
+            "type": "python",
+            "request": "launch",
+            "program": "create_onboarding_page.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["projects.yml"]
+        },
+        {
+            "name": "Upload Onboarding Page",
+            "type": "python",
+            "request": "launch",
+            "program": "upload_onboarding_page.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": ["projects.yml"]
+        }
+    ]
+}
