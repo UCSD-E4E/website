@@ -1,4 +1,5 @@
 # Onboarding Papers
+Controls the source for https://e4e.ucsd.edu/onboarding-papers
 ## Configuration
 In `projects.yml`, ensure that there is an entry for the project. `bib_file` should be the relative path to the `.bib` file without the file extension.  `name` should be the name displayed on the website.
 
