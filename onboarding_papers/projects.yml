@@ -1,14 +1,21 @@
 - bib_file: Acoustic_Species_ID
   name: Acoustic Species ID
+  url: https://e4e.ucsd.edu/acoustic-species-identification
 - bib_file: Baboons_on_the_Move
   name: Baboons on the Move
+  url: https://e4e.ucsd.edu/baboons-on-the-move
 - bib_file: FishSense
   name: FishSense
+  url: https://e4e.ucsd.edu/fishsense
 - bib_file: Mangrove_Monitoring
   name: Mangrove Monitoring
+  url: https://e4e.ucsd.edu/mangrove-monitoring
 - bib_file: Radio_Telemetry_Tracking
   name: Radio Telemetry Tracking
+  url: https://e4e.ucsd.edu/radio-collar-tracker
 - bib_file: Smartfin
   name: Smartfin
+  url: https://e4e.ucsd.edu/smartfin
 - bib_file: aye-aye
   name: Aye-Aye Sleep Monitoring
+  url: https://e4e.ucsd.edu/aye-aye-sleep-monitoring
