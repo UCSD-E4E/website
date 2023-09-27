@@ -19,3 +19,6 @@
 # - bib_file: aye-aye
 #   name: Aye-Aye Sleep Monitoring
 #   url: https://e4e.ucsd.edu/aye-aye-sleep-monitoring
+- bib_file: esg
+  name: Engineering Support Group
+  url: https://e4e.ucsd.edu/esg
