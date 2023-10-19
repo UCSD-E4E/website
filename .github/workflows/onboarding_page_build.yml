@@ -1,0 +1,36 @@
+name: Onboarding Page Build
+
+on:
+  push:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9"
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install bibtex2html
+        python -m pip install --upgrade pip
+        cd onboarding_papers
+        python -m pip install -r requirements.txt
+        cd ..
+    - name: Build
+      run: |
+        cd onboarding_papers
+        python create_onboarding_page.py projects.yml
+        cd ..
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: onboarding_papers
+        path: ./onboarding_papers/projects.html 

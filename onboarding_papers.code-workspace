@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "./onboarding_papers"
+		},
+        {
+			"path": "./publications"
+		}
+	],
+	"settings": {
+		"editor.rulers": [
+			100
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"njpwerner.autodocstring",
+			"ms-python.isort",
+			"ms-python.vscode-pylance",
+			"ms-python.pylint",
+			"ms-python.python"
+		]
+	}
+}
