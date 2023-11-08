@@ -38,6 +38,7 @@ def create_html_page(config: List[Dict[str, str]]) -> str:
     Returns:
         str: HTML wordpress body
     """
+    config_entries = {entry['name']:entry for entry in config}
     html_files = {entry['name']:Path(entry['bib_file'] + '.html') for entry in config}
     html = ''
 
@@ -50,8 +51,14 @@ def create_html_page(config: List[Dict[str, str]]) -> str:
         html += '<!-- /wp:paragraph -->\n\n'
 
     for name, html_file in html_files.items():
+        config_entry = config_entries[name]
         html += '<!-- wp:heading -->\n'
-        html += f'<h2 class="wp-block-heading">{name}</h2>\n'
+        if 'url' in config_entry:
+            heading_text = (f'<a href="{config_entry["url"]}" data-type="link" '
+                           f'data-id="{config_entry["url"]}">{name}</a>')
+        else:
+            heading_text = f'{name}'
+        html += f'<h2 class="wp-block-heading">{heading_text}</h2>\n'
         html += '<!-- /wp:heading -->\n'
         html += '\n'
 
