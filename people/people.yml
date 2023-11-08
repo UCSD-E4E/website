@@ -810,7 +810,7 @@
   expedition: false
   level: Project Candidate
   name: Ella Tung
-  start: 0
+  start: 2020
 - description: Aye-Aye Sleep Monitoring, 2020-2021
   end: 2021
   expedition: false
@@ -1528,7 +1528,7 @@
   level: Project Candidate
   start: 2022
 - name: Kewei Chen
-  description: Smartfin since 2023
+  description: Smartfin since 2022
   level: Project Candidate
   start: 2022
 - name: Adrian Zugehar
@@ -1575,6 +1575,7 @@
   description: FishSense since 2022
   level: Project Member
   start: 2022
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_asachdeva.jpg
 - name: Vancheeswaran Vaidyanathan
   description: FishSense since 2023
   level: Project Member
@@ -1632,6 +1633,7 @@
   description: Radio Telemetry Tracking since 2023
   level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_MatthewPeng.jpeg
 - name: Dylan Palmer
   description: Radio Telemetry Tracking, CSE 145, Spring 2023
   level: Project Candidate
@@ -1714,6 +1716,7 @@
   description: Hardware Team supporting Smartfin since 2023
   level: Project Member
   start: 2023
+  image: https://e4e.ucsd.edu/wp-content/uploads/2023_rsingh.jpg
 - name: Ela Lucas
   description: Mechanical Engineer supporting Radio Telemetry Tracking since 2023
   level: Project Member
