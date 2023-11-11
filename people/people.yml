@@ -1269,7 +1269,7 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - description: Acoustic Species ID since 2020
   expedition: true
-  level: Project Member
+  level: Project Member - Alumni
   name: Jen Switzer
   start: 2020
   end: 2023
@@ -1317,16 +1317,17 @@
 - description: Acoustic Species ID since 2022, 2022 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_pchatterjee-200x200.jpeg
-  level: Project Member
+  level: Project Member - Alumni
   name: Pranjal Chatterjee
   start: 2022
   end: 2023
 - description: Smartfin since 2022, 2022 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_agarde-200x200.jpg
-  level: Project Lead
+  level: Project Lead - Alumni
   name: Anshul Garde
   start: 2021
+  end: 2023
 - description: Radio Telemetry Tracking 2022, 2022 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/reu2022_fchaquico-200x200.jpg
@@ -1409,7 +1410,7 @@
   end: 2023
 - name: Joe Yan
   description: Acoustic Species ID since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   end: 2023
 - name: Micah Gilbert
@@ -1459,7 +1460,7 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
 - name: Leo Li
   description: Aye-Aye Sleep Monitoring since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   end: 2023
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_yul080.jpg
@@ -1489,7 +1490,7 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_jil146-1.jpg
 - name: Chen Yang
   description: Mangrove Monitoring since 2022
-  level: Project Member
+  level: Project Member - Alumni
   start: 2022
   end: 2023
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_chy002.jpg
@@ -1718,58 +1719,58 @@
   start: 2023
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_rsingh.jpg
 - name: Ela Lucas
-  description: Mechanical Engineer supporting Radio Telemetry Tracking since 2023
-  level: Project Member
+  description: Mechanical Engineer supporting Radio Telemetry Tracking, 2023 Summer REU
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Nicholas Reyes
-  description: Radio Telemetry Tracking
-  level: Project Member
+  description: Radio Telemetry Tracking, 2023 Summer REU
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Derick Mathews
   description: Software for Wireless Underwater Communication System on Volt since 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Hamish Grant
-  description: Fishsense, Summer 2023
-  level: Project Member
+  description: Fishsense, 2023 Summer REU
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Emily Thorpe
   description: Smartfin since 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Josephine Dominguez
   description: Smartfin, Radio Telemetry Tracking, and FishSense since 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Michael Pham
   description: Mangrove Monitoring since 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Jordan Reichhardt
   description: Smartfin, Radio Telemetry Tracking, Fishsense since 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Ana Perez
   description: FishSense since 2023
   start: 2023
   end: 2023
-  level: Project Member
+  level: Project Member - Alumni
 - name: Chima Nwughala
   description: AKER, Summer 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Diana Ekechukwu
   description: Junkyard Computing, Summer 2023
-  level: Project Member
+  level: Project Member - Alumni
   start: 2023
   end: 2023
 - name: Marco Bazzani
