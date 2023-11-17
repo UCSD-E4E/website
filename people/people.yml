@@ -63,7 +63,7 @@
 - description: Intelligent Camera Trap, 2013 Summer REU
   end: 2013
   expedition: false
-  level: Project Candidate
+  level: Project Member
   name: David Muller
   start: 2013
 - description: Radio Telemetry Tracking, 2019-2020
@@ -76,7 +76,7 @@
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/AlliBusa.jpg
-  level: Project Candidate
+  level: Project Member
   name: Allison Busa
   start: 2019
 - description: 'Angry Birds, 2014 Summer REU
@@ -91,7 +91,7 @@
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/a_kout-225x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Anthony Koutroulis
   start: 2017
 - description: ''
@@ -109,14 +109,14 @@
   end: 2018
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/catherine-350x263.jpg
-  level: Project Candidate
+  level: Project Member
   name: Catherine Lee
   start: 2018
 - description: Baboons on the Move, 2019 Summer REU
   end: 2019
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/CharmaineBeluso.jpg
-  level: Project Candidate
+  level: Project Member
   name: Charmaine Beluso
   start: 2019
 - description: ''
@@ -128,14 +128,14 @@
   end: 2019
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/CharlesKinzel-148x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Charles Kinzel
   start: 2019
 - description: Radio Telemetry Tracking, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/k_dahn-169x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Kati Dahn
   start: 2017
 - description: 'Angry Birds, 2013-2017
@@ -164,7 +164,7 @@
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Emily-300x249.png
-  level: Project Candidate
+  level: Project Member
   name: Emily Ubik
   start: 2015
 - description: ''
@@ -190,21 +190,21 @@
   end: 2013
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/lauren.jpg
-  level: Project Candidate
+  level: Project Member
   name: Lauren Nishizaki
   start: 2013
 - description: PYNQ Copter, 2018 Summer REU
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/zain-350x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Zain Merchant
   start: 2018
 - description: Mangrove Monitoring, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_nmeister-263x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Nicole Meister
   start: 2020
 - description: Smartfin, 2017-2018
@@ -218,7 +218,7 @@
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_elee-350x263.jpg
-  level: Project Candidate
+  level: Project Member
   name: Eugene Lee
   start: 2020
 - description: Stingray AUV, 2012-2014
@@ -232,14 +232,14 @@
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/SamEhrenstein-350x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Sam Ehrenstein
   start: 2019
 - description: Maya Archaeology, 2015 Summer REU
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Raymond-236x300.png
-  level: Project Candidate
+  level: Project Member
   name: Raymond Zheng
   start: 2015
 - description: Radio Telemetry Tracking, 2019-2020
@@ -271,35 +271,35 @@
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_tdo-294x350.png
-  level: Project Candidate
+  level: Project Member
   name: Thuan Do
   start: 2020
 - description: Mangrove Monitoring, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_dforman-263x350.png
-  level: Project Candidate
+  level: Project Member
   name: David Forman
   start: 2020
 - description: Acoustic Species ID, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_ayao_150x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Anthony Yao
   start: 2020
 - description: Mangrove Monitoring, 2019 Summer REU
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/ChristiannaBambini.jpg
-  level: Project Candidate
+  level: Project Member
   name: Christina Bambini
   start: 2019
 - description: Maya Archaeology, 2019 Summer REU
   end: 2019
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/HassanEid-280x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Hassan Eid
   start: 2019
 - description: Radio Telemetry Tracking, 2018-2019
@@ -313,7 +313,7 @@
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/Natasha_picture-1-263x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Natasha Hellebrandt
   start: 2019
 - description: ReefPin, 2018-2019
@@ -328,7 +328,7 @@
   end: 2019
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/EnoshReeder-1-197x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Enosh Reeder
   start: 2019
 - description: ReefPin, 2018-2019
@@ -342,21 +342,21 @@
   end: 2018
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/savannah-350x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Savannah Longoria
   start: 2018
 - description: PYNQ Copter, 2018 Summer REU
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/indira-227x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Indira Avendano
   start: 2018
 - description: ReefPin, 2018 Summer REU
   end: 2018
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/rob-350x350.jpg
-  level: Project Candidate
+  level: Project Member
   name: Robert Barlow
   start: 2018
 - description: Aerial LIDAR, 2017-2019
@@ -370,56 +370,56 @@
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/l_gros-278x300.png
-  level: Project Candidate
+  level: Project Member
   name: Leif Grosswiler
   start: 2017
 - description: Maya Archaeology, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/w_khan-300x278.png
-  level: Project Candidate
+  level: Project Member
   name: Waseem Khan
   start: 2017
 - description: Mangrove Monitoring, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/j_bloc-228x300.png
-  level: Project Candidate
+  level: Project Member
   name: Julien Bloch
   start: 2017
 - description: Acoustic Species ID, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_jwang-263x350.png
-  level: Project Candidate
+  level: Project Member
   name: Justin Wang
   start: 2020
 - description: Acoustic Species ID, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_gsteinberg-350x232.jpg
-  level: Project Candidate
+  level: Project Member
   name: Gabriel Steinberg
   start: 2020
 - description: Mangrove Monitoring, 2020 Summer REU
   end: 2020
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2020_scole-291x350.png
-  level: Project Candidate
+  level: Project Member
   name: Sam Cole
   start: 2020
 - description: Mangrove Monitoring/ReefPin, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/s_comb-200x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Samanta Combs
   start: 2017
 - description: Mangrove Monitoring, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/l_wood-260x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Lysny Woodahl
   start: 2017
 - description: Mangrove Monitoring/ReefPin, 2016-2018
@@ -433,56 +433,56 @@
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/f_park-300x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Felix Parker
   start: 2017
 - description: Mangrove Monitoring/ReefPin, 2017 Summer REU
   end: 2017
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/b_hall-300x261.jpg
-  level: Project Candidate
+  level: Project Member
   name: Brynn Hall
   start: 2017
 - description: Maya Archaeology, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/p_heng-300x225.jpg
-  level: Project Candidate
+  level: Project Member
   name: Proud Heng
   start: 2017
 - description: Underwater Soft Robotics, 2017 Summer REU
   end: 2017
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/media-20170815-225x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Zandria Acosta
   start: 2017
 - description: Whale Call Classification, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_lisa-286x300.png
-  level: Project Candidate
+  level: Project Member
   name: Lisa Bauer
   start: 2016
 - description: Aerial Mapping, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_nick-240x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Nick Gonzalez
   start: 2016
 - description: Stereo Rig, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/e4e_herrera-225x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Rachel Herrera
   start: 2016
 - description: SphereCam, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_andrew-300x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Andrew Hostler
   start: 2016
 - description: Coral Mapping, 2016 Summer REU
@@ -496,49 +496,49 @@
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_seoyeon-226x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Seoyeon Sim
   start: 2016
 - description: SphereCam, 2016 Summer REU
   end: 2016
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_ethan-300x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Ethan Slattery
   start: 2016
 - description: Whale Call Classification, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_irina-300x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Irina Tolkova
   start: 2016
 - description: Aerial Mapping, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_tara.jpg
-  level: Project Candidate
+  level: Project Member
   name: Tara Tripp
   start: 2016
 - description: Radio Telemetry Tracking, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_daniel-300x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Daniel Webber
   start: 2016
 - description: Whale Call Classification, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_Hongyi_Zhao-225x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Hongyi Zhao
   start: 2016
 - description: Coral Mapping, 2016 Summer REU
   end: 2016
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2016_kaue-300x295.png
-  level: Project Candidate
+  level: Project Member
   name: Kaue Zoia
   start: 2016
 - description: Aerial Vehicles, 2015 Summer REU
@@ -552,21 +552,21 @@
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Blake-300x300.png
-  level: Project Candidate
+  level: Project Member
   name: Blake Apatow
   start: 2015
 - description: Intelligent Camera Trap, 2015 Summer REU
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Annie-300x268.png
-  level: Project Candidate
+  level: Project Member
   name: Annie Christy
   start: 2015
 - description: Aerial Vehicles, 2015 Summer REU
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Jacob-193x300.png
-  level: Project Candidate
+  level: Project Member
   name: Jacob Junker
   start: 2015
 - description: Intelligent Camera Trap, 2015 Summer REU
@@ -580,14 +580,14 @@
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Otavio-215x300.png
-  level: Project Candidate
+  level: Project Member
   name: Otavio Soares Papardis
   start: 2015
 - description: Aerial Vehicles, 2015 Summer REU
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Ihab-300x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Ihab Salameh
   start: 2015
 - description: Aerial Vehicles, 2014-2016
@@ -601,7 +601,7 @@
   end: 2015
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/REU2015_Tevon-300x272.png
-  level: Project Candidate
+  level: Project Member
   name: Tevon Walker
   start: 2015
 - description: Aerial Vehicles, 2014-2016
@@ -615,59 +615,59 @@
   end: 2014
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2014_zach-224x300.jpg
-  level: Project Candidate
+  level: Project Member
   name: Zach Barnes
   start: 2014
 - description: Angry Birds, 2014 Summer REU
   end: 2014
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2014_luke-300x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Luke DeLuccia
   start: 2014
 - description: Wolf Tracker, 2014 Summer REU
   end: 2014
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2014_dasun-300x277.jpg
-  level: Project Candidate
+  level: Project Member
   name: Dasun Hemachandra
   start: 2014
 - description: Wolf Tracker, 2014 Summer REU
   end: 2014
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2014_tevon-300x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Tevon Hodge
   start: 2014
 - description: SphereCam, 2014 Summer REU
   end: 2014
   expedition: false
-  level: Project Candidate
+  level: Project Member
   name: Jordann McCarty
   start: 2014
 - description: Angry Birds, 2014 Summer REU
   end: 2014
   expedition: false
-  level: Project Candidate
+  level: Project Member
   name: Dustin Mendoza
   start: 2014
 - description: Plankton Camera, 2014 Summer REU
   end: 2014
   expedition: false
-  level: Project Candidate
+  level: Project Member
   name: Paul Owens
   start: 2014
 - description: Radio Telemetry Tracking, 2014 Summer REU
   end: 2014
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2014_gilberto-300x198.jpg
-  level: Project Candidate
+  level: Project Member
   name: Gilberto Antonio Marcon dos Santos
   start: 2014
 - description: Angry Birds, 2014 Summer REU
   end: 2014
   expedition: false
-  level: Project Candidate
+  level: Project Member
   name: Traci Takasugi
   start: 2014
 - description: 'Wolf Tracker, 2013-2014
@@ -682,35 +682,35 @@
   end: 2013
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/jennifer-small.jpg
-  level: Project Candidate
+  level: Project Member
   name: Jennifer Batryn
   start: 2013
 - description: Intelligent Camera Trap, 2013 Summer REU
   end: 2013
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/gabrielle-small.jpg
-  level: Project Candidate
+  level: Project Member
   name: Gabrielle Trotter
   start: 2013
 - description: Intelligent Camera Trap, 2013 Summer REU
   end: 2013
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/davidf-small.png
-  level: Project Candidate
+  level: Project Member
   name: David Fish
   start: 2013
 - description: 2013 Summer REU
   end: 2013
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/mike.jpg
-  level: Project Candidate
+  level: Project Member
   name: Michael Carlson
   start: 2013
 - description: Intelligent Camera Trap, 2013 Summer REU
   end: 2013
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/jeremy.png
-  level: Project Candidate
+  level: Project Member
   name: Jeremy Blackstone
   start: 2013
 - description: Radio Telemetry Tracking, 2012-2013
@@ -780,36 +780,11 @@
   level: Project Member
   name: Jacob Ayers
   start: 2020
-- description: Acoustic Species ID, 2020
-  end: 2020
-  expedition: false
-  image: https://e4e.ucsd.edu/wp-content/uploads/2020_yjhwang.jpg
-  level: Project Candidate
-  name: Yoo-Jin Hwang
-  start: 2020
-- description: Acoustic Species ID, 2020
-  end: 2020
-  expedition: false
-  level: Project Candidate
-  name: Erika Joun
-  start: 2020
-- description: Acoustic Species ID, 2020
-  end: 2020
-  expedition: false
-  level: Project Candidate
-  name: Thomas Stuart
-  start: 2020
 - description: Acoustic Species ID since 2020, 2021 Summer REU, 2022 Summer REU
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_sperry_200x150.jpg
   level: Project Lead
   name: Sean Perry
-  start: 2020
-- description: Acoustic Species ID, 2020
-  end: 2020
-  expedition: false
-  level: Project Candidate
-  name: Ella Tung
   start: 2020
 - description: Aye-Aye Sleep Monitoring, 2020-2021
   end: 2021
@@ -832,24 +807,12 @@
   name: Younus Ahmad
   start: 2020
   image: https://e4e.ucsd.edu/wp-content/uploads/blank-profile-drawing-200x200.png
-- description: Radio Telemetry Tracking, 2020
-  end: 2020
-  expedition: false
-  level: Project Candidate
-  name: Aedan Bailey
-  start: 2020
 - description: Radio Telemetry Tracking, 2020-2022, 2021 Summer REU
   end: 2022
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_mlucio_183x200.jpg
   level: Project Lead - Alumni
   name: Mia Lucio
-  start: 2020
-- description: Radio Telemetry Tracking, 2020
-  end: 2020
-  expedition: false
-  level: Project Candidate
-  name: Ryan Lay
   start: 2020
 - description: Maya Archaeology, 2018-2022
   end: 2022
@@ -1140,7 +1103,7 @@
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_cmaldonado_150x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Christopher Maldonado-Salido
   start: 2021
 - description: Aye-Aye Sleep Monitoring 2021-2022
@@ -1155,21 +1118,21 @@
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_dsalzmann_174x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: David Salzmann
   start: 2021
 - description: Baboons on the Move, 2021 Summer REU
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_dfreeman_185x200.png
-  level: Project Candidate
+  level: Project Member
   name: Declan Freeman-Gleason
   start: 2021
 - description: Aye-Aye Sleep Monitoring, 2021 Summer REU
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_tnguyen_200x194.jpg
-  level: Project Candidate
+  level: Project Member
   name: "Tuyetthuc \u201CDiu\u201D Nguyen"
   start: 2021
 - description: Coral Tile, 2021-2022
@@ -1189,41 +1152,41 @@
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_mbland_149x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Madison Bland
   start: 2021
 - description: Acoustic Species ID, 2021 Summer REU
   end: 2021
   expedition: true
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_mblue_150x200.jpeg
-  level: Project Candidate
+  level: Project Member
   name: Mugen Blue
   start: 2021
 - description: Burrowing Owl, 2021 Summer REU
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_nislas_133x200.png
-  level: Project Candidate
+  level: Project Member
   name: Nathaniel Islas
   start: 2021
 - description: Acoustic Species ID since 2021, 2021 Summer REU
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_nbalaji_200x174.jpg
-  level: Project Candidate
+  level: Project Member
   name: Nishant Balaji
   start: 2021
 - description: FishSense since 2021, 2021 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_rmaddukuri_150x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Raghav Maddukuri
   start: 2021
   end: 2023
 - description: Baboons on the Move since 2021, 2021 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_rvergniault_158x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Romain Vergniault
   start: 2021
   end: 2023
@@ -1238,20 +1201,20 @@
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_ssewell_200x198.jpeg
-  level: Project Candidate
+  level: Project Member
   name: Syndie Sewell
   start: 2021
 - description: Smartfin since 2021, 2021 Summer REU
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_vnachiappan_166x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Valli Nachiappan
   start: 2021
 - description: Maya Archaeology, 2021 Summer REU
   end: 2021
   expedition: false
   image: https://e4e.ucsd.edu/wp-content/uploads/2021_ysenior_133x200.jpg
-  level: Project Candidate
+  level: Project Member
   name: Yasmin Senior
   start: 2021
 - description: Acoustic Species ID since 2021
@@ -1509,11 +1472,6 @@
   level: Project Member
   start: 2022
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_wlewis_200x200.png
-- name: Do heon Kim
-  description: Radio Telemetry Tracking since 2023
-  level: Project Candidate
-  start: 2023
-  end: 2023
 - name: Aryaman Jadhav
   description: Smartfin since 2021
   level: Project Member
@@ -1524,14 +1482,6 @@
   level: Project Member
   start: 2022
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_a6tang_200x200.png
-- name: Luran Zhang
-  description: Smartfin since 2022
-  level: Project Candidate
-  start: 2022
-- name: Kewei Chen
-  description: Smartfin since 2022
-  level: Project Candidate
-  start: 2022
 - name: Adrian Zugehar
   description: Hardware Team supporting FishSense and Aye-Aye Sleep Monitoring since 2023
   level: Project Member
@@ -1637,13 +1587,9 @@
   image: https://e4e.ucsd.edu/wp-content/uploads/2023_MatthewPeng.jpeg
 - name: Dylan Palmer
   description: Radio Telemetry Tracking, CSE 145, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
-- name: Haochen Wang
-  description: Radio Telemetry Tracking since 2023
-  level: Project Candidate
-  start: 2023
 - name: Saud Alsulaiman
   description: FishSense since 2023
   level: Project Member
@@ -1658,47 +1604,37 @@
   level: Project Candidate
 - name: Zachary Novack
   description: Acoustic Species ID, CSE 237D, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Arthi Haripriyan
   description: Acoustic Species ID, CSE 237D, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Lorenzo Mendes
   description: Acoustic Species ID, CSE 145, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Abhishek Harish
   description: Acoustic Species ID, CSE 237D, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Ranjan Gauravarapu
   description: Acoustic Species ID, CSE 237D, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Sai Nikhila Bandaru
   description: Acoustic Species ID, CSE 237D, Spring 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Shivani Hariprasad
   description: Acoustic Species ID, CSE 237D, Spring 2023
-  level: Project Candidate
-  start: 2023
-  end: 2023
-- name: Boogie Mikulec
-  description: Aye-Aye Sleep Monitoring since 2023
-  level: Project Candidate
-  start: 2023
-  end: 2023
-- name: Sindhu Kothe
-  description: Aye-Aye Sleep Monitoring since 2023
-  level: Project Candidate
+  level: Project Member
   start: 2023
   end: 2023
 - name: Brandon Lopez
