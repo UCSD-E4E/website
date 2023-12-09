@@ -3,6 +3,8 @@ name: BibTex2HTML Build
 on:
   workflow_dispatch:
   push:
+    paths:
+      - publications/**
 
 permissions:
   contents: read
